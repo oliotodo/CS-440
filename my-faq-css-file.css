@@ -1,3 +1,16 @@
+body {
+  background: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: blue;
+  font-size: 50px;
+  font-family: arial;
+  text-align: center;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: blue;
@@ -19,7 +32,7 @@
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -39,3 +52,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: black;}
+
+h3 {
+  text-align: center;
+}
