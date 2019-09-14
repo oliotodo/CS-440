@@ -61,3 +61,18 @@ h3 {
 .questions {
   font-size: 20px;
 }
+
+.myDIV {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.pointer {cursor: pointer;}
