@@ -79,7 +79,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: lightgray;
+  background-color: silver;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -92,6 +92,10 @@ button:hover {
   background-color: blue;
 }
 
+.logbtn {
+  font-size: 18px;
+}
+
 .cancelbtn:hover {
   background-color: red;
 }
@@ -102,18 +106,8 @@ button:hover {
   background-color: black;
 }
 
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
 .container {
-  padding: 16px;
+  padding: 10px;
 }
 
 span.psw {
