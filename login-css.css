@@ -62,6 +62,11 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
 /* Login Form */
 
 form {
@@ -113,4 +118,17 @@ button:hover {
 span.psw {
   float: right;
   padding-top: 16px;
+}
+
+table {
+  width: 150%
+  border: 1px solid black;
+  border-spacing: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.t01 td:last-child {
+  word-wrap: normal;
 }
