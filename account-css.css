@@ -110,3 +110,31 @@ h3 {
 .resume_buttons:hover {
   background-color: blue;
 }
+
+.files {
+  width: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+input[type=submit] {
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  background-color: silver;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+  color: white;
+}
+
+input[type=file] {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: silver;
+  outline: none;
+  display: inline;
+  margin-left: 10px;
+}

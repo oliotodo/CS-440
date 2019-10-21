@@ -8,7 +8,7 @@
     account.">
     <link rel="stylesheet" href="account-css.css">
     <script src="account-js.js"></script>
-    <title> My Resume </title>
+    <title> Upload Resume </title>
   </head>
 
   <body>
@@ -31,7 +31,15 @@
       <button class="resume_buttons"><a href ="#"> Delete </a></button>
       <button class="resume_buttons"><a href ="#"> Responses </a></button>
     </div>
-  <p> Here is your current resume.</p>
+    <br>
+    <br>
+    <form action="/action_page.php"> Select your resume:   <input type="file" name="myFile" />
+      <label for="file"></label>
+      <br>
+      <br>
+      <input type="submit" class="files">
+    </form>
+
 
   </body>
 </html>
