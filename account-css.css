@@ -138,3 +138,17 @@ input[type=file] {
   display: inline;
   margin-left: 10px;
 }
+
+.delete_files {
+  border: none;
+  background-color: silver;
+  cursor: pointer;
+  padding: 12px;
+  position: relative;
+  left: 41%;
+}
+
+.delete_files:hover {
+  background-color: red;
+  color: white;
+}
