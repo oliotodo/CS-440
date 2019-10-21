@@ -8,6 +8,10 @@ body {
   background-size: cover;
 }
 
+button {
+  cursor: pointer;
+}
+
 .title {
   color: blue;
   font-size: 50px;
@@ -60,4 +64,49 @@ body {
 h3 {
   text-align: center;
   font-size: 40px;
+}
+
+.account_menu {
+  position: absolute;
+  left: 32%;
+  width: 500px;
+  background-color: #f1f1f1;
+  color: black;
+  display: block;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.account_menu a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.account_menu a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+.resume_buttons {
+  background-color: silver;
+  display: inline-block;
+  padding: 12px;
+  width: 300px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  left: 10%
+}
+
+.resume_buttons a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.resume_buttons:hover {
+  background-color: blue;
 }
