@@ -12,6 +12,16 @@ button {
   cursor: pointer;
 }
 
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+dd {
+  font-size: .9rem;
+  padding-top: 5px;
+}
+
 .title {
   color: blue;
   font-size: 50px;
@@ -60,11 +70,6 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: black;}
-
-h3 {
-  text-align: center;
-  font-size: 40px;
-}
 
 .account_menu {
   position: absolute;
@@ -151,4 +156,8 @@ input[type=file] {
 .delete_files:hover {
   background-color: red;
   color: white;
+}
+
+.editit {
+  cursor: cell;
 }
