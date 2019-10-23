@@ -3,10 +3,11 @@
 }
 
 body {
-  background-image: url(deck-background.jpg);
   background-image: linear-gradient(to bottom, gray, transparent 150%), url("deck-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
+  height: 700px;
 }
 
 button {
