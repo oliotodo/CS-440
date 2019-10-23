@@ -3,12 +3,10 @@
 }
 
 body {
-  background: linear-gradient(gray, transparent, 90%),
-        gray url(../deck-background.jpg) no-repeat center;
-  background-size: cover;
-  /* background-image: url(deck-background.jpg);
+  background-image: url(deck-background.jpg);
+  background-image: linear-gradient(to bottom, gray, transparent 150%), url("deck-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .title {
