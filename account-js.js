@@ -1,3 +1,7 @@
 function bye() {
   alert ("Your item was deleted.");
 }
+
+function byeAccount() {
+  alert ("Your account is deleted.");
+}
