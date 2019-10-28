@@ -5,3 +5,6 @@ function bye() {
 function byeAccount() {
   alert ("Your account is deleted.");
 }
+
+var onImg= "redheart.png";
+var offImg= "heart.png";

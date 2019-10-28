@@ -229,3 +229,20 @@ input:checked + .slider:before {
   background-color: red;
   color: white;
 }
+
+/* Saved Internships table editing */
+table {
+  width: 90%;
+}
+
+td {
+  text-align: center;
+  width: 5%;
+  word-break: break-word;
+}
+
+.likeheart {
+  width: 20px;
+  height: 20px;
+  filter: heart(red);
+}
