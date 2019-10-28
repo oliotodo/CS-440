@@ -96,6 +96,7 @@ dd {
   color: blue;
 }
 
+/* MyResume.html */
 .resume_buttons {
   background-color: silver;
   display: inline-block;
@@ -118,6 +119,7 @@ dd {
   background-color: blue;
 }
 
+/* Upload.html */
 .files {
   width: auto;
   position: absolute;
@@ -146,6 +148,7 @@ input[type=file] {
   margin-left: 10px;
 }
 
+/* Delete.html */
 .delete_files {
   border: none;
   background-color: silver;
@@ -216,7 +219,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
@@ -230,7 +232,7 @@ input:checked + .slider:before {
   color: white;
 }
 
-/* Saved Internships table editing */
+/* SavedInternships.html table editing */
 table {
   width: 90%;
 }
