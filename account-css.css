@@ -247,4 +247,5 @@ td {
   width: 20px;
   height: 20px;
   filter: heart(red);
+  cursor: pointer;  
 }
