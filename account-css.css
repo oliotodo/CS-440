@@ -250,7 +250,18 @@ td {
   cursor: pointer;
 }
 
+/* Logout.html editing */
 .logout {
-  margin-left: 50%;
-  text-align: 25%;
+  margin-left: 47%;
+  text-align: 5%;
+  padding: 12px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.logout:hover {
+  background-color: red;
+  color: white;
 }
