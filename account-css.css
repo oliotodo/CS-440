@@ -247,5 +247,10 @@ td {
   width: 20px;
   height: 20px;
   filter: heart(red);
-  cursor: pointer;  
+  cursor: pointer;
+}
+
+.logout {
+  margin-left: 50%;
+  text-align: 25%;
 }
