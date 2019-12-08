@@ -112,6 +112,55 @@ table {
   width: 90%;
 }
 
+/* buttons */
+.newpost {
+background-color: silver;
+ display: inline-block;
+ padding: 8px;
+ width: 100px;
+ border: none;
+ text-align: center;
+ font-size: 12px;
+ position: relative;
+ left: 0%
+}
+
+.newpost a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.newpost:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.myposts {
+background-color: silver;
+ display: inline-block;
+ padding: 8px;
+ width: 100px;
+ border: none;
+ text-align: center;
+ font-size: 12px;
+ position: relative;
+ left: 0%
+}
+
+.myposts a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.myposts:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
 /* Reply features */
 
 .open-button {
@@ -181,4 +230,72 @@ table {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+/* New Semaphore Post  */
+
+input[type=text], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline;
+}
+
+input[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=reset] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+input[type=reset]:hover {
+  background-color: blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-60 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
