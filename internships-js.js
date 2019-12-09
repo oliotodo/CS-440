@@ -8,3 +8,7 @@ function toggle(source) {
             checkboxes[i].checked = source.checked;
     }
 }
+
+function successful() {
+  window.alert("Your application was submitted.");
+}
