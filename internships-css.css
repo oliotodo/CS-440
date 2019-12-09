@@ -64,6 +64,11 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
 .filter {
   background-color: silver;
   display: inline-block;
