@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Log-In screen. Will lead to
+    Home screen once a successful log-in is established.">
+    <link rel="stylesheet" href="login-css.css">
+    <script src="login-js.js"></script>
+    <title> Log-In </title>
+  </head>
+
+  <body>
+    <header><h1 class="title"> Shipyard </h1></header>
+    <div class="dropdown">
+      <button class="dropbtn"> Menu </button>
+      <div class="dropdown-content">
+        <a href="#"> Home </a>
+        <a href="#"> Contact Us </a>
+        <a href="#"> FAQs </a>
+      </div>
+    </div>
+    <h3> Login </h3>
+<form>
+    <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Bellarmine Email" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="logbtn" onclick="myFunction()">Login</button>
+    <label>
+      <input type="checkbox" unchecked="unchecked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+  </body>
+
+</html>
