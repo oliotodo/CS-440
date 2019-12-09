@@ -135,6 +135,29 @@ h3 {
   color: white;
 }
 
+.apply {
+  background-color: silver;
+  display: inline-block;
+  padding: 12px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  left: 0%;
+}
+
+.apply a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.apply:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+
 .select {
   background-color: silver;
   display: inline-block;
